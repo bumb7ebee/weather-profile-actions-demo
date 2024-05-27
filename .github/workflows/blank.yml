@@ -21,3 +21,8 @@ jobs:
         uses: actions/checkout@v4
       - name: weather-profile-actions
         uses: bumb7ebee/weather-profile-actions@main
+        with:
+          weather-api-key: ${{ secrets.WEATHER_API_KEY }}
+          city-id: 740483
+          metric: c
+          readme-path: README.md
