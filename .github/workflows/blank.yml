@@ -20,4 +20,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: weather-profile-actions
-        uses: bumb7ebee/weather-profile-actions@latest
+        uses: bumb7ebee/weather-profile-actions@main
