@@ -30,4 +30,5 @@ jobs:
           weather-api-key: ${{ secrets.WEATHER_API_KEY }}
           city-id: 740483
           units: c
+          country-code: tr
           readme-path: README.md
