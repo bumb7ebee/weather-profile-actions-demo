@@ -24,5 +24,5 @@ jobs:
         with:
           weather-api-key: ${{ secrets.WEATHER_API_KEY }}
           city-id: 740483
-          metric: c
+          units: c
           readme-path: README.md
